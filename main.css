@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: url(img/main.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.logo {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  height: 60px;
+}
+nav {
+  height: 60px;
+  display: block;
+  overflow: hidden;
+
+  padding: 20px 10%;
+  background: rgba(0, 0, 0, 0);
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  padding: 0 22px;
+  color: rgb(204, 204, 204);
+  font-size: 20px;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 25px;
+}
+.active {
+  background-color: grey;
+  color: #fff;
+  border-radius: 25px;
+}
+
+.nav_search {
+  background-color: #ffffff;
+  float: right;
+  border-radius: 25px;
+}
+.nav_search input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 18px;
+  border: none;
+}
+
+.main {
+  display: flex;
+}
+.main_left {
+  flex: 1;
+  display: flex;
+  padding: 50px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.main_right {
+  flex: 1;
+}
+
+.title {
+  font-family: "Covered By Your Grace", cursive;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 70px;
+  color: #fff;
+}
+.desc {
+  font-family: "Calligraffitti", cursive;
+  font-size: 40px;
+  padding: 10px;
+  color: #fff;
+}
+.desc2 {
+  padding: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+.button {
+  height: 30px;
+  width: 170px;
+  margin: 10px;
+  border-radius: 25px;
+  border-width: 5px;
+  color: #fff;
+  background-color: transparent;
+  border-color: #6e7e84;
+}
+.left_desc {
+  background-color: rgba(238, 255, 87, 0.5);
+  color: #fff;
+  padding: 20px;
+}
+
+.Middle {
+  background-color: rgb(238, 255, 87);
+  position: relative;
+  text-align: center;
+}
+.title_middle {
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.middle_desc {
+  position: relative;
+}
+
+.middle_desc img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.center_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  width: 27%;
+}
+
+.last {
+  background-image: url(img/last.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.last_title {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(221, 225, 225);
+  padding: 20px;
+}
+hr {
+  width: 180px;
+  color: black;
+
+  border: 1px solid;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 40px;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 20px 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.card-title {
+  font-family: "Baskervville", serif;
+  font-size: 30px;
+  color: #fff;
+}
+.card-desc {
+  font-family: "Baskervville", serif;
+  color: #fff;
+}
